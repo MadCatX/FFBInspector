@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errCap_devError" xml:space="preserve">
+    <value>Device error</value>
+  </data>
+  <data name="errCap_dihError" xml:space="preserve">
+    <value>DirectInput error</value>
+  </data>
+  <data name="errCap_effError" xml:space="preserve">
+    <value>Effect error</value>
+  </data>
+  <data name="errCap_impossible" xml:space="preserve">
+    <value>"Impossible" error</value>
+  </data>
+  <data name="errCap_invalData" xml:space="preserve">
+    <value>Invalid data</value>
+  </data>
+  <data name="errCap_noEffect" xml:space="preserve">
+    <value>No effect</value>
+  </data>
+  <data name="errMsg_dihCantAcquire" xml:space="preserve">
+    <value>Cannot acquire device.</value>
+  </data>
+  <data name="errMsg_dihGetDevStat" xml:space="preserve">
+    <value>Cannot get status of the device.</value>
+  </data>
+  <data name="tip_conditionDeadband" xml:space="preserve">
+    <value>Area around the offset at which the effect's force will be zero.
+Range: 0 - 10000
+Range of deadband: Offset-Deadband - Offset+Deadband
+</value>
+  </data>
+  <data name="tip_conditionNegCoeff" xml:space="preserve">
+    <value>Coefficient constant on the negative side of the effect.
+Range: -10000 - 10000</value>
+  </data>
+  <data name="tip_conditionNegSat" xml:space="preserve">
+    <value>Maximum force on the negative side of the effect.
+Range: -10000 - 10000</value>
+  </data>
+  <data name="tip_conditionOffset" xml:space="preserve">
+    <value>Device's position relative to its center at which the effect's force will be zero.
+Range -10000 - 10000</value>
+  </data>
+  <data name="tip_conditionPosCoeff" xml:space="preserve">
+    <value>Coefficient constant on the positive side of the effect.
+Range: -10000 - 10000</value>
+  </data>
+  <data name="tip_conditionPosSat" xml:space="preserve">
+    <value>Maximum force on the positive side of the effect.
+Range: -10000 - 10000</value>
+  </data>
+  <data name="tip_constantMagnitude" xml:space="preserve">
+    <value>Strength of the constant force.
+Negative values create an inverse force.
+Range: -10000 - 10000</value>
+  </data>
+  <data name="tip_directions" xml:space="preserve">
+    <value>Direction of the effect expressed in cartesian coordinates (where applicable).</value>
+  </data>
+  <data name="tip_envelope" xml:space="preserve">
+    <value>Envelope is a set of conditions that adjust effect's
+magnitude at the beginning and the end of playback.
+
+When an envelope is applied, effect's magnitude changes
+gradually from a start value to target value when the playback
+starts and then fades to a final level at the end of the playback.</value>
+  </data>
+  <data name="tip_envelopeAttackLevel" xml:space="preserve">
+    <value>Magnitude at the beggining of playback.
+Range: 0 - 10000</value>
+  </data>
+  <data name="tip_envelopeAttackTime" xml:space="preserve">
+    <value>How long should the magnitude be changing to the target one (in microseconds).</value>
+  </data>
+  <data name="tip_envelopeFadeLevel" xml:space="preserve">
+    <value>Magnitude at the end of the playback.
+Range: 0 - 10000</value>
+  </data>
+  <data name="tip_envelopeFadeTime" xml:space="preserve">
+    <value>How long should the magnitude be fading to the final one (in microseconds).</value>
+  </data>
+  <data name="tip_generalDelay" xml:space="preserve">
+    <value>Delay before the effect starts playing (in microseconds).
+0 = Start immediately</value>
+  </data>
+  <data name="tip_generalDuration" xml:space="preserve">
+    <value>How long the effect should play (in microseconds).
+-1 = Infinite</value>
+  </data>
+  <data name="tip_generalGain" xml:space="preserve">
+    <value>Overall strength of the effect.
+Range: 0 - 10000</value>
+  </data>
+  <data name="tip_generalTrig" xml:space="preserve">
+    <value>Start playback when a button is pressed.
+Number corresponds to the button number reported by the device.
+-1 = No trigger</value>
+  </data>
+  <data name="tip_generalTrigRep" xml:space="preserve">
+    <value>Delay between the end of one playback and start of another one (in microseconds).
+Applicable only if the effect is triggered by button.
+0 = No delay</value>
+  </data>
+  <data name="tip_periodicMagnitude" xml:space="preserve">
+    <value>Maximum strength of the effect.
+Range: 0 - 10000</value>
+  </data>
+  <data name="tip_periodicOffset" xml:space="preserve">
+    <value>Ranges of forces generated by the effect.
+Generated ranges: Offset-Magnitude - Offset+Magnitude</value>
+  </data>
+  <data name="tip_periodicPeriod" xml:space="preserve">
+    <value>How long will one cycle of the effect last (in microseconds).</value>
+  </data>
+  <data name="tip_periodicPhase" xml:space="preserve">
+    <value>Position in the cycle at which the playback will start.
+Range: 0 - 35999</value>
+  </data>
+</root>
